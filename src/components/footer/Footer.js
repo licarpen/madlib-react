@@ -1,9 +1,9 @@
 import React from 'react';
-//import styles from './Footer.css';
+import styles from './Footer.css';
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className={styles.Footer}>
       <p>
         MadLibs ©
       </p>
